@@ -4,13 +4,12 @@ Aprendiendo Django
 ### Lecturas importantes
 - [Django](https://www.djangoproject.com/).
 
-### Ejecutar comandos de la documentación de Django
+# Ejecutar comandos de la documentación de Django
 ```bash
 django-admin --help
+```
 
-
-iniciar poryecto el crea carpeta pasos
-
+#iniciar poryecto el crea carpeta pasos
 1 django-admin statproject my_first_project 
 2 py manage.py startapp my_first_app
 
@@ -30,3 +29,6 @@ py manage.py makemigrations
 donde creo la tabla? 
 ejecutar ./manage.py dbshell
 sql .tables
+
+
+py manage.py shell
